@@ -1,0 +1,8 @@
+{
+  "name": "kashyap-tour-travels",
+  "version": "1.0.0",
+  "description": "Kashyap Tour & Travels - Cab & Tempo Traveller Rental",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
