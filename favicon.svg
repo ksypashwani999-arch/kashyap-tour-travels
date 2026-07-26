@@ -1,0 +1,14 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lg1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#lg1)"/>
+  <polygon points="6,34 16,18 26,34" fill="rgba(255,255,255,0.3)"/>
+  <polygon points="18,34 30,14 42,34" fill="rgba(255,255,255,0.55)"/>
+  <rect x="20" y="34" width="8" height="2" rx="1" fill="#fff" opacity="0.9"/>
+  <rect x="22" y="37" width="4" height="1.5" rx="0.75" fill="#fff" opacity="0.6"/>
+  <text x="10" y="30" font-family="Arial" font-weight="900" font-size="13" fill="#fff" opacity="0.95">KT</text>
+</svg>
