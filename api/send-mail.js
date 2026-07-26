@@ -53,7 +53,7 @@ Sent from: Kashyap Tour & Travels Website
 
 💬 *Message:* ${message || 'None'}
 ━━━━━━━━━━━━━━━━━━━
-_Kashyap Tour & Travels Website_`;
+_Kashyap Tour & Travels_`;
 
   // ── 1. Send Email ──
   let mailSent = false;
