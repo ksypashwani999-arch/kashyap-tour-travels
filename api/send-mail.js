@@ -10,10 +10,10 @@ module.exports = async (req, res) => {
     return res.status(405).json({ success: false, message: 'Method not allowed.' });
   }
 
-  const { name, phone, email, from, to, date, vehicle, message } = req.body;
+  const { name, phone, email, from, to, start_date, end_date, vehicle, message } = req.body;
 
   // Basic validation
-  if (!name || !phone || !from || !to || !date) {
+  if (!name || !phone || !from || !to || !start_date || !end_date) {
     return res.status(400).json({ success: false, message: 'Please fill all required fields.' });
   }
 
@@ -39,7 +39,8 @@ Email   : ${email || 'Not provided'}
 
 From    : ${from}
 To      : ${to}
-Date    : ${date}
+Start Date : ${start_date}
+End Date   : ${end_date}
 Vehicle : ${vehicle || 'Not specified'}
 
 Message :
