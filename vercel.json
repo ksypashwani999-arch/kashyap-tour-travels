@@ -10,6 +10,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "logo.jpg",
+      "use": "@vercel/static"
+    },
+    {
       "src": "index.html",
       "use": "@vercel/static"
     }
@@ -22,6 +26,10 @@
     {
       "src": "/favicon.svg",
       "dest": "/favicon.svg"
+    },
+    {
+      "src": "/logo.jpg",
+      "dest": "/logo.jpg"
     },
     {
       "src": "/(.*)",
