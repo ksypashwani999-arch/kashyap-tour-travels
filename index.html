@@ -44,19 +44,14 @@
       transition: background .3s;
     }
     .navbar.scrolled { background: var(--dark); }
-    .nav-logo { display: flex; align-items: center; gap: 10px; }
-    .nav-logo .logo-icon {
-      width: 42px; height: 42px; border-radius: 10px;
-      background: linear-gradient(135deg, var(--secondary), var(--gold));
-      display: grid; place-items: center;
-      font-size: 20px; color: #fff;
-    }
-    .nav-logo .logo-text { line-height: 1.1; }
+    .nav-logo { display: flex; align-items: center; gap: 12px; }
+    .nav-logo .logo-icon { width: 48px; height: 48px; flex-shrink: 0; }
+    .nav-logo .logo-text { line-height: 1.15; }
     .nav-logo .logo-text span:first-child {
-      display: block; font-size: 15px; font-weight: 700; color: #fff; letter-spacing: .5px;
+      display: block; font-size: 15px; font-weight: 800; color: #fff; letter-spacing: .3px;
     }
     .nav-logo .logo-text span:last-child {
-      display: block; font-size: 10px; font-weight: 400; color: var(--gold); letter-spacing: 2px; text-transform: uppercase;
+      display: block; font-size: 9.5px; font-weight: 500; color: var(--gold); letter-spacing: 2.5px; text-transform: uppercase;
     }
     .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
     .nav-links a { font-size: 13.5px; font-weight: 500; color: rgba(255,255,255,.85); transition: color .2s; }
@@ -516,7 +511,26 @@
 <!-- ════════════ NAVBAR ════════════ -->
 <nav class="navbar" id="navbar">
   <div class="nav-logo">
-    <div class="logo-icon"><i class="fa-solid fa-van-shuttle"></i></div>
+    <div class="logo-icon">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#f97316"/>
+            <stop offset="100%" stop-color="#fbbf24"/>
+          </linearGradient>
+        </defs>
+        <!-- Background rounded square -->
+        <rect width="48" height="48" rx="12" fill="url(#lg1)"/>
+        <!-- Mountains -->
+        <polygon points="6,34 16,18 26,34" fill="rgba(255,255,255,0.3)"/>
+        <polygon points="18,34 30,14 42,34" fill="rgba(255,255,255,0.55)"/>
+        <!-- Road -->
+        <rect x="20" y="34" width="8" height="2" rx="1" fill="#fff" opacity="0.9"/>
+        <rect x="22" y="37" width="4" height="1.5" rx="0.75" fill="#fff" opacity="0.6"/>
+        <!-- "K" letter -->
+        <text x="10" y="30" font-family="Arial" font-weight="900" font-size="13" fill="#fff" opacity="0.95">KT</text>
+      </svg>
+    </div>
     <div class="logo-text">
       <span>Kashyap Tour & Travels</span>
       <span>Your Journey, Our Passion</span>
@@ -1170,7 +1184,26 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="nav-logo">
-        <div class="logo-icon"><i class="fa-solid fa-van-shuttle"></i></div>
+        <div class="logo-icon">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#f97316"/>
+            <stop offset="100%" stop-color="#fbbf24"/>
+          </linearGradient>
+        </defs>
+        <!-- Background rounded square -->
+        <rect width="48" height="48" rx="12" fill="url(#lg1)"/>
+        <!-- Mountains -->
+        <polygon points="6,34 16,18 26,34" fill="rgba(255,255,255,0.3)"/>
+        <polygon points="18,34 30,14 42,34" fill="rgba(255,255,255,0.55)"/>
+        <!-- Road -->
+        <rect x="20" y="34" width="8" height="2" rx="1" fill="#fff" opacity="0.9"/>
+        <rect x="22" y="37" width="4" height="1.5" rx="0.75" fill="#fff" opacity="0.6"/>
+        <!-- "K" letter -->
+        <text x="10" y="30" font-family="Arial" font-weight="900" font-size="13" fill="#fff" opacity="0.95">KT</text>
+      </svg>
+    </div>
         <div class="logo-text">
           <span>Kashyap Tour & Travels</span>
           <span>Your Journey, Our Passion</span>
