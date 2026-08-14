@@ -18,6 +18,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "Dezire.png",
+      "use": "@vercel/static"
+    },
+    {
       "src": "index.html",
       "use": "@vercel/static"
     }
@@ -38,6 +42,10 @@
     {
       "src": "/logo.png",
       "dest": "/logo.png"
+    },
+    {
+      "src": "/Dezire.png",
+      "dest": "/Dezire.png"
     },
     {
       "src": "/(.*)",
