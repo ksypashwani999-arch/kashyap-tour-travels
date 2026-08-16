@@ -47,6 +47,12 @@
       "src": "/Dezire.png",
       "dest": "/Dezire.png"
     },
+ {
+      "src": "/inova.png",
+      "dest": "/inova.png"
+    },
+
+    
     {
       "src": "/(.*)",
       "dest": "/index.html"
