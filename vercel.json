@@ -21,6 +21,11 @@
       "src": "Dezire.png",
       "use": "@vercel/static"
     },
+
+     {
+      "src": "inova.png",
+      "use": "@vercel/static"
+    },
     {
       "src": "index.html",
       "use": "@vercel/static"
