@@ -36,7 +36,10 @@
       "src": "Travler12.png",
       "use": "@vercel/static"
     },
-
+{
+      "src": "Travler17.png",
+      "use": "@vercel/static"
+    },
 
 
     
@@ -83,6 +86,10 @@
 
 
 
+{
+      "src": "/Travler17.png",
+      "dest": "/Travler17.png"
+    },
 
 
 
