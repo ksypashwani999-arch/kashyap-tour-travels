@@ -32,6 +32,14 @@
       "src": "ertiga.png",
       "use": "@vercel/static"
     },
+{
+      "src": "Travler12.png",
+      "use": "@vercel/static"
+    },
+
+
+
+    
     {
       "src": "index.html",
       "use": "@vercel/static"
@@ -67,6 +75,24 @@
       "src": "/ertiga.png",
       "dest": "/ertiga.png"
     },
+
+{
+      "src": "/Travler12.png",
+      "dest": "/Travler12.png"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     {
       "src": "/(.*)",
