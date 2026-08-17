@@ -40,7 +40,10 @@
       "src": "Travler17.png",
       "use": "@vercel/static"
     },
-
+{
+      "src": "Urbania.png",
+      "use": "@vercel/static"
+    },
 
     
     {
@@ -94,7 +97,10 @@
 
 
 
-
+{
+      "src": "/Urbania.png",
+      "dest": "/Urbania.png"
+    },
 
 
 
