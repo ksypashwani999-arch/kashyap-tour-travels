@@ -55,6 +55,21 @@
     },
 
 
+    {
+      "src": "Kashmir.png",
+      "use": "@vercel/static"
+
+    },
+
+
+     {
+      "src": "varindaban.png",
+      "use": "@vercel/static"
+
+    },
+
+
+
 
     {
       "src": "shimla.png",
@@ -133,7 +148,17 @@
     },
 
 
+    {
+      "src": "/Kashmir.png",
+      "dest": "/Kashmir.png"
+    },
 
+    
+
+    {
+      "src": "/varindaban.png",
+      "dest": "/varindaban.png"
+    },
     
     {
       "src": "/(.*)",
