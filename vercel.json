@@ -68,6 +68,11 @@
 
     },
 
+{
+      "src": "manali.png",
+      "use": "@vercel/static"
+
+    },
 
 
 
@@ -152,6 +157,11 @@
       "src": "/Kashmir.png",
       "dest": "/Kashmir.png"
     },
+     {
+      "src": "/manali.png",
+      "dest": "/manali.png"
+    },
+
 
     
 
