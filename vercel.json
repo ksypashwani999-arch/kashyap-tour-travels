@@ -43,6 +43,23 @@
 {
       "src": "Urbania.png",
       "use": "@vercel/static"
+
+    },
+
+
+    
+{
+      "src": "Shimlapic.png",
+      "use": "@vercel/static"
+
+    },
+
+
+
+    {
+      "src": "Shimla.png",
+      "use": "@vercel/static"
+
     },
 
     
@@ -103,6 +120,16 @@
     },
 
 
+
+    {
+      "src": "/Shimlapic.png",
+      "dest": "/Shimlapic.png"
+    },
+
+
+      "src": "/Shimla.png",
+      "dest": "/Shimla.png"
+    },
 
 
 
