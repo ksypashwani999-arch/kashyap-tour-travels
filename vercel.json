@@ -74,7 +74,24 @@
 
     },
 
+   {
+      "src": "jaisalmer.png",
+      "use": "@vercel/static"
 
+    },
+
+    
+{
+      "src": "khatushyam.png",
+      "use": "@vercel/static"
+
+    },
+
+    {
+      "src": "chardham.png",
+      "use": "@vercel/static"
+
+    },
 
     {
       "src": "shimla.png",
@@ -162,8 +179,21 @@
       "dest": "/manali.png"
     },
 
+  {
+      "src": "/khatushyam.png",
+      "dest": "/khatushyam.png"
+    },
 
-    
+
+    {
+      "src": "/chardham.png",
+      "dest": "/chardham.png"
+    },
+
+     {
+      "src": "/jaisalmer.png",
+      "dest": "/jaisalmer.png"
+    },
 
     {
       "src": "/varindaban.png",
