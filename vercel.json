@@ -49,7 +49,7 @@
 
     
 {
-      "src": "Shimlapic.png",
+      "src": "shimlapic.png",
       "use": "@vercel/static"
 
     },
@@ -57,7 +57,7 @@
 
 
     {
-      "src": "Shimla.png",
+      "src": "shimla.png",
       "use": "@vercel/static"
 
     },
@@ -122,13 +122,13 @@
 
 
     {
-      "src": "/Shimlapic.png",
+      "src": "/shimlapic.png",
       "dest": "/Shimlapic.png"
     },
 
 
-      "src": "/Shimla.png",
-      "dest": "/Shimla.png"
+      "src": "/shimla.png",
+      "dest": "/shimla.png"
     },
 
 
