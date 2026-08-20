@@ -45,7 +45,11 @@
       "use": "@vercel/static"
 
     },
+{
+      "src": "photo.png",
+      "use": "@vercel/static"
 
+    },
 
     
 {
@@ -156,6 +160,10 @@
       "dest": "/Urbania.png"
     },
 
+{
+      "src": "/photo.png",
+      "dest": "/photo.png"
+    },
 
 
     {
